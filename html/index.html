@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>bPauseMenu</title>
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!-- ===== JS ===== -->
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    </head>
+    <body>
+        <section id="container">
+            <div class="button-haut-div">
+                <div id="settings" class="button-haut">
+                    <img src="assets/img/settings.png">
+                    <h3>Paramètre</h3>
+                </div>
+                <div id="map" class="button-haut">
+                    <img src="assets/img/maps.png">     
+                    <h3>Carte</h3>
+                </div>
+                <div id="discord" class="button-haut">
+                    <img src="assets/img/discord.png">     
+                    <h3>Discord</h3>
+                </div>
+                <div id="website" class="button-haut" href="https://memory-s.fr/">
+                    <img src="assets/img/web.png">   
+                    <h3>Site-Web</h3>        
+                </div>
+            </div>
+            <div class="infos-games">
+                <div class="gauche-player">
+                    <div class="i-player">
+                        <img src="assets/img/money.png">     
+                        <h3 id="money"></h3>
+                    </div>
+                    <div class="i-player">
+                        <img src="assets/img/bank.png">  
+                        <h3 id="bank"></h3>
+                    </div>
+                    <div class="i-player">
+                        <img src="assets/img/job.png">  
+                        <h3 id="job1"></h3>
+                    </div>
+                    <div class="i-player">
+                        <img src="assets/img/gang.png">  
+                        <h3 id="job2"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="button-leave">
+                <div id="exit" class="btn-action">
+                    <img src="assets/img/error.png">  
+                </div>
+                <div id="disconnect" class="btn-action">
+                    <img src="assets/img/reload.png">  
+                </div>
+            </div>
+        </section>  
+        <script src="assets/js/script.js" type="text/javascript"></script>
+    </body>
+</html>
